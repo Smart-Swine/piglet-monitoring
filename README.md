@@ -31,7 +31,7 @@ RECORD_VDA = False
 - Intel RealSense D456 connected through USB 3.2
 - librealsense `v2.59.2`, built with the RSUSB backend
 - D456 firmware `5.16.0.1`, verified with simultaneous depth, color, and infrared capture
-- Intel RealSense D435 (firmware `5.17.3.10`) on Debian 12 / Python 3.11. The D435 has no 5 FPS mode, so it streams at 15 FPS and clips are still saved at 5 FPS.
+- Intel RealSense D435 and D436 (firmware `5.17.3.10`) on Debian 12 / Python 3.11. These cameras have no 5 FPS mode, so they stream at 15 FPS and clips are still saved at 5 FPS.
 
 The librealsense `v2.59.2` release notes recommend D456 USB firmware `5.17.3.10` or later. Firmware updates are deliberately excluded from the automated installer because power or USB interruption during an update can damage the device configuration.
 

@@ -983,7 +983,7 @@ def start_d456():
     upper_name = camera_name.upper()
     # Some librealsense/firmware combinations identify a D456 as D455.
     valid_model = any(
-        model in upper_name for model in ("D456", "D455", "D435")
+        model in upper_name for model in ("D456", "D455", "D435", "D436")
     )
     if not valid_model:
         pipeline.stop()
