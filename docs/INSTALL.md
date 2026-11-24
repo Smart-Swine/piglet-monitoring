@@ -35,9 +35,17 @@ python3 --version
 
 ## 2. Clone This Repository
 
+The repository is private, so log in to GitHub first:
+
 ```bash
-git clone https://github.com/Yu-Andy-Wang/raspberry-pi5-d456-recorder.git
-cd raspberry-pi5-d456-recorder
+sudo apt install -y gh
+gh auth login
+gh auth setup-git
+```
+
+```bash
+git clone https://github.com/Smart-Swine/piglet-monitoring.git
+cd piglet-monitoring
 ```
 
 ## 3. Build and Install librealsense
@@ -75,7 +83,7 @@ Testing only inside `~/librealsense/build` can accidentally import a temporary b
 Return to the cloned repository and run:
 
 ```bash
-cd ~/raspberry-pi5-d456-recorder
+cd ~/piglet-monitoring
 python3 scripts/smoke_test.py
 ```
 

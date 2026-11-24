@@ -93,7 +93,7 @@ After the next graphical login, the terminal and `RealSense Depth` window are di
 For an existing installation, switch modes with:
 
 ```bash
-cd ~/raspberry-pi5-d456-recorder
+cd ~/piglet-monitoring
 git pull --ff-only
 sudo systemctl disable --now d456-monitor.service
 bash scripts/enable_preview_autostart.sh

@@ -44,8 +44,8 @@ The librealsense `v2.59.2` release notes recommend D456 USB firmware `5.17.3.10`
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/Yu-Andy-Wang/raspberry-pi5-d456-recorder.git
-cd raspberry-pi5-d456-recorder
+git clone https://github.com/Smart-Swine/piglet-monitoring.git
+cd piglet-monitoring
 ```
 
 ## Repository Layout
